@@ -1,3 +1,9 @@
+2022-01-05  Bruno Haible  <bruno@clisp.org>
+
+	doc: Document a new feature (already in version 1.0).
+	* doc/uniconv.texi (uniconv.h): Document
+	iconveh_question_replacement_character.
+
 2022-01-04  Bruno Haible  <bruno@clisp.org>
 
 	Prepare for 1.0 release.
