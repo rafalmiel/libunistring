@@ -129,6 +129,7 @@
 /gnulib-m4/printf-frexp.m4
 /gnulib-m4/printf-frexpl.m4
 /gnulib-m4/printf.m4
+/gnulib-m4/pselect.m4
 /gnulib-m4/pthread-thread.m4
 /gnulib-m4/pthread_h.m4
 /gnulib-m4/pthread_rwlock_rdlock.m4
@@ -1210,6 +1211,7 @@
 /tests/pathmax.h
 /tests/perror.c
 /tests/pipe.c
+/tests/pselect.c
 /tests/pthread-thread.c
 /tests/pthread.in.h
 /tests/pthread_sigmask.c
@@ -1242,6 +1244,8 @@
 /tests/stat-w32.h
 /tests/stat.c
 /tests/stdalign.in.h
+/tests/stdio-read.c
+/tests/stdio-write.c
 /tests/stdio.in.h
 /tests/strerror-override.c
 /tests/strerror-override.h
@@ -1360,6 +1364,7 @@
 /tests/test-pipe.c
 /tests/test-printf-frexp.c
 /tests/test-printf-frexpl.c
+/tests/test-pselect.c
 /tests/test-pthread-thread.c
 /tests/test-pthread.c
 /tests/test-pthread_sigmask1.c
