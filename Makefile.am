@@ -1,5 +1,5 @@
 ## Makefile for the toplevel directory of GNU libunistring.
-## Copyright (C) 2009, 2016, 2018, 2021 Free Software Foundation, Inc.
+## Copyright (C) 2009, 2016, 2018, 2021-2022 Free Software Foundation, Inc.
 ##
 ## This program is free software: you can redistribute it and/or modify
 ## it under the terms of the GNU General Public License as published by
@@ -22,7 +22,8 @@ ACLOCAL_AMFLAGS = -I m4 -I gnulib-m4
 SUBDIRS = doc gnulib-local lib tests
 
 EXTRA_DIST = \
-  version.sh BUGS DEPENDENCIES HACKING autogen.sh \
+  version.sh BUGS DEPENDENCIES HACKING JOIN-GNU \
+  autogen.sh \
   build-aux/join-v-1 build-aux/texi2html build-aux/run-test
 
 
