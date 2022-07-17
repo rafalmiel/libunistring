@@ -1997,7 +1997,7 @@
 /build-aux/missing
 /build-aux/test-driver
 
-# Other files brought in by autogen.sh:
+# Other files brought in by autopull.sh or autogen.sh:
 /build-aux/ar-lib
 /build-aux/config.guess
 /build-aux/config.sub
