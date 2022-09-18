@@ -1,3 +1,14 @@
+2022-09-18  Bruno Haible  <bruno@clisp.org>
+
+	stdbool.mini.h: Improvements for MSVC 14 and Sun C++.
+	Applies gnulib changes
+	2022-09-04  Bruno Haible  <bruno@clisp.org>
+		* stdbool.in.h (_Bool, bool, false, true): In C++ mode with
+		MSVC 14, don't define these as macros.
+	2022-09-18  Bruno Haible  <bruno@clisp.org>
+		* stdbool.in.h (true): Redefine if it does not evaluate to 1 in
+		the preprocessor.
+
 2022-07-18  Bruno Haible  <bruno@clisp.org>
 
 	Move gnulib-tool invocation back from autopull.sh to autogen.sh.
