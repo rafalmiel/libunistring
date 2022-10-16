@@ -76,6 +76,8 @@ To identify affected modules, you can use the following command:
 
 where $COMMIT is a git commit ID, which points to the regeneration,
 and 'containing' and 'dependent' are scripts included here.  Note that
-this command takes some time to complete.
+this command takes some time to complete.  Also, it is useful to
+temporarily remove the dependency to 'wcwidth' from modules/mbchar
+before this command.
 
 Daiki Ueno <ueno@gnu.org>

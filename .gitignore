@@ -18,8 +18,10 @@
 /gnulib-m4/absolute-header.m4
 /gnulib-m4/alloca.m4
 /gnulib-m4/arpa_inet_h.m4
+/gnulib-m4/assert_h.m4
 /gnulib-m4/btowc.m4
 /gnulib-m4/builtin-expect.m4
+/gnulib-m4/c-bool.m4
 /gnulib-m4/calloc.m4
 /gnulib-m4/close.m4
 /gnulib-m4/codeset.m4
@@ -209,6 +211,7 @@
 /lib/amemxfrm.h
 /lib/arg-nonnull.h
 /lib/array-mergesort.h
+/lib/assert.in.h
 /lib/attribute.h
 /lib/c++defs.h
 /lib/c-ctype.c
@@ -243,6 +246,7 @@
 /lib/iconv_open.c
 /lib/iconveh.h
 /lib/idx.h
+/lib/intprops-internal.h
 /lib/intprops.h
 /lib/inttypes.in.h
 /lib/isnan.c
@@ -307,6 +311,7 @@
 /lib/signbitl.c
 /lib/size_max.h
 /lib/stdbool.in.h
+/lib/stdckdint.in.h
 /lib/stddef.in.h
 /lib/stdint.in.h
 /lib/stdio-impl.h
@@ -1143,6 +1148,7 @@
 /tests/alloca.c
 /tests/arg-nonnull.h
 /tests/arpa_inet.in.h
+/tests/test-assert.c
 /tests/atomic-int-gnulib.h
 /tests/basename-lgpl.c
 /tests/basename-lgpl.h
@@ -1186,6 +1192,7 @@
 /tests/inet_pton.c
 /tests/infinity.h
 /tests/init.sh
+/tests/intprops-internal.h
 /tests/intprops.h
 /tests/ioctl.c
 /tests/isblank.c
@@ -1243,6 +1250,7 @@
 /tests/stat-w32.c
 /tests/stat-w32.h
 /tests/stat.c
+/tests/test-stdckdint.c
 /tests/stdalign.in.h
 /tests/stdio-read.c
 /tests/stdio-write.c
@@ -1449,6 +1457,7 @@
 /tests/unsetenv.c
 /tests/unused-parameter.h
 /tests/usleep.c
+/tests/verify.h
 /tests/w32sock.h
 /tests/warn-on-use.h
 /tests/wcrtomb.c
@@ -2107,6 +2116,8 @@ autom4te.cache/
 /tests/test-arpa_inet.exe
 /tests/test-array-mergesort
 /tests/test-array-mergesort.exe
+/tests/test-assert
+/tests/test-assert.exe
 /tests/test-bidi_byname
 /tests/test-bidi_byname.exe
 /tests/test-bidi_longname
@@ -2631,6 +2642,8 @@ autom4te.cache/
 /tests/test-printf-frexp.exe
 /tests/test-printf-frexpl
 /tests/test-printf-frexpl.exe
+/tests/test-pselect
+/tests/test-pselect.exe
 /tests/test-pthread
 /tests/test-pthread.exe
 /tests/test-pthread-thread
@@ -2691,6 +2704,8 @@ autom4te.cache/
 /tests/test-stdalign.exe
 /tests/test-stdbool
 /tests/test-stdbool.exe
+/tests/test-stdckdint
+/tests/test-stdckdint.exe
 /tests/test-stddef
 /tests/test-stddef.exe
 /tests/test-stdint
@@ -3266,6 +3281,8 @@ core
 /lib/locale.h-t
 /lib/math.h
 /lib/math.h-t
+/lib/stdckdint.h
+/lib/stdckdint.h-t
 /lib/stdbool.h
 /lib/stdbool.h-t
 /lib/stddef.h
