@@ -1,3 +1,7 @@
+New in 1.2:
+* Fixed a bug in the *printf functions: In the %U, %lU, %llU directives, a
+  negative width given as an argument did not trigger left-justification.
+
 New in 1.1:
 * The data tables and algorithms have been updated to Unicode version 15.0.0.
 

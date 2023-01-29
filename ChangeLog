@@ -1,3 +1,19 @@
+2023-01-29  Bruno Haible  <bruno@clisp.org>
+
+	Fix a bug in the *printf functions.
+	Applies gnulib change
+	2023-01-28  Bruno Haible  <bruno@clisp.org>
+		unistdio/*printf: Fix negative width handling for %U, %lU, %llU.
+		* lib/vasnprintf.c (VASNPRINTF): In the code for %U, %lU, %llU,
+		test for the FLAG_LEFT bit in the flags variable.
+		* tests/unistdio/test-u8-printf1.h (test_xfunction): Add tests
+		for width given as argument for the directives %U, %lU, %llU,
+		%s, %a, %f, %e, %g.
+		* tests/unistdio/test-u16-printf1.h (test_xfunction): Likewise.
+		* tests/unistdio/test-u32-printf1.h (test_xfunction): Likewise.
+		* tests/unistdio/test-ulc-printf1.h (test_xfunction): Likewise.
+	* NEWS: Mention the fix.
+
 2022-09-18  Bruno Haible  <bruno@clisp.org>
 
 	stdbool.mini.h: Improvements for MSVC 14 and Sun C++.
