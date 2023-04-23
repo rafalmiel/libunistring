@@ -33,6 +33,7 @@
 /gnulib-m4/environ.m4
 /gnulib-m4/errno_h.m4
 /gnulib-m4/error.m4
+/gnulib-m4/error_h.m4
 /gnulib-m4/exponentd.m4
 /gnulib-m4/exponentf.m4
 /gnulib-m4/exponentl.m4
@@ -184,7 +185,11 @@
 /gnulib-m4/sys_uio_h.m4
 /gnulib-m4/thread.m4
 /gnulib-m4/threadlib.m4
+/gnulib-m4/time.m4
 /gnulib-m4/time_h.m4
+/gnulib-m4/unicase_h.m4
+/gnulib-m4/unictype_h.m4
+/gnulib-m4/uninorm_h.m4
 /gnulib-m4/unistd_h.m4
 /gnulib-m4/usleep.m4
 /gnulib-m4/vasnprintf.m4
@@ -347,6 +352,8 @@
 /lib/verify.h
 /lib/warn-on-use.h
 /lib/wchar.in.h
+/lib/wcs-two-way.h
+/lib/wcsstr-impl.h
 /lib/wctype-h.c
 /lib/wctype.in.h
 /lib/wcwidth.c
@@ -1167,7 +1174,7 @@
 /tests/dirname.h
 /tests/dup2.c
 /tests/error.c
-/tests/error.h
+/tests/error.in.h
 /tests/exitfail.c
 /tests/exitfail.h
 /tests/fcntl.c
@@ -1269,6 +1276,7 @@
 /tests/sys_time.in.h
 /tests/sys_uio.in.h
 /tests/test-accept.c
+/tests/test-alignasof.c
 /tests/test-alloca-opt.c
 /tests/test-arpa_inet.c
 /tests/test-array-mergesort.c
@@ -1278,6 +1286,7 @@
 /tests/test-btowc.c
 /tests/test-btowc1.sh
 /tests/test-btowc2.sh
+/tests/test-btowc3.sh
 /tests/test-c-ctype.c
 /tests/test-c-strcase.sh
 /tests/test-c-strcasecmp.c
@@ -1290,6 +1299,8 @@
 /tests/test-dup2.c
 /tests/test-environ.c
 /tests/test-errno.c
+/tests/test-error.c
+/tests/test-error.sh
 /tests/test-fcntl-h.c
 /tests/test-fcntl.c
 /tests/test-fdopen.c
@@ -1332,6 +1343,7 @@
 /tests/test-iswxdigit.c
 /tests/test-iswxdigit.sh
 /tests/test-langinfo.c
+/tests/test-largefile.c
 /tests/test-limits-h.c
 /tests/test-listen.c
 /tests/test-localcharset.c
@@ -1431,6 +1443,7 @@
 /tests/test-sys_wait.h
 /tests/test-thread_create.c
 /tests/test-thread_self.c
+/tests/test-time-h.c
 /tests/test-time.c
 /tests/test-unistd.c
 /tests/test-unsetenv.c
@@ -1453,6 +1466,7 @@
 /tests/test-wcwidth.c
 /tests/test-xalloc-die.c
 /tests/test-xalloc-die.sh
+/tests/time.c
 /tests/time.in.h
 /tests/unsetenv.c
 /tests/unused-parameter.h
@@ -3352,6 +3366,8 @@ core
 /lib/unistring/iconveh.h-t
 /tests/ctype.h
 /tests/ctype.h-t
+/tests/error.h
+/tests/error.h-t
 /tests/fcntl.h
 /tests/fcntl.h-t
 /tests/pthread.h

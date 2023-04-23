@@ -1,5 +1,5 @@
 dnl Configuration for the toplevel directory of GNU libunistring
-dnl Copyright (C) 2009-2020 Free Software Foundation, Inc.
+dnl Copyright (C) 2009-2023 Free Software Foundation, Inc.
 dnl
 dnl This program is free software: you can redistribute it and/or modify
 dnl it under the terms of the GNU General Public License as published by
@@ -27,6 +27,9 @@ AC_CONFIG_HEADERS([config.h])
 
 dnl Override automake's tar command used for creating distributions.
 am__tar='${AMTAR} chof - --owner=root --group=root "$$tardir"'
+
+dnl An indicator macro that declares that we're in libunistring.
+AC_DEFUN([gl_IN_LIBUNISTRING], [])
 
 dnl Checks for basic programs.
 

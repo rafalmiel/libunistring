@@ -8,7 +8,7 @@
 # It also requires
 #   - the gperf program.
 
-# Copyright (C) 2003-2022 Free Software Foundation, Inc.
+# Copyright (C) 2003-2023 Free Software Foundation, Inc.
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -448,20 +448,6 @@ if test $skip_gnulib = false; then
       < lib/unistr.in.h \
       > lib/unistr.in.h.tmp \
   && mv lib/unistr.in.h.tmp lib/unistr.in.h
-  # Change lib/unictype.h, lib/uninorm.h, lib/unicase.h for shared libraries on Woe32 systems.
-  sed -e 's/extern const uc_general_category_t UC_/extern LIBUNISTRING_DLL_VARIABLE const uc_general_category_t UC_/' \
-      -e 's/extern const uc_property_t UC_/extern LIBUNISTRING_DLL_VARIABLE const uc_property_t UC_/' \
-      < lib/unictype.in.h \
-      > lib/unictype.in.h.tmp \
-  && mv lib/unictype.in.h.tmp lib/unictype.in.h
-  sed -e 's/extern const struct unicode_normalization_form /extern LIBUNISTRING_DLL_VARIABLE const struct unicode_normalization_form /' \
-      < lib/uninorm.in.h \
-      > lib/uninorm.in.h.tmp \
-  && mv lib/uninorm.in.h.tmp lib/uninorm.in.h
-  sed -e 's/extern const casing_/extern LIBUNISTRING_DLL_VARIABLE const casing_/' \
-      < lib/unicase.in.h \
-      > lib/unicase.in.h.tmp \
-  && mv lib/unicase.in.h.tmp lib/unicase.in.h
   $GNULIB_TOOL --copy-file build-aux/ar-lib; chmod a+x build-aux/ar-lib
   $GNULIB_TOOL --copy-file build-aux/config.guess; chmod a+x build-aux/config.guess
   $GNULIB_TOOL --copy-file build-aux/config.sub;   chmod a+x build-aux/config.sub
