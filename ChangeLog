@@ -1,5 +1,12 @@
 2023-05-21  Bruno Haible  <bruno@clisp.org>
 
+	Doc tweaks, borrowed from Gnulib.
+	* doc/libunistring.texi (char * strings): Tweak.
+	* doc/wchar_t.texi (The wchar_t mess): Reference <wchar.h>. Correct
+	statement about AIX.
+
+2023-05-21  Bruno Haible  <bruno@clisp.org>
+
 	Support creating shared libraries on Hurd/x86_64.
 	Patch from
 	<https://lists.gnu.org/archive/html/bug-hurd/2023-05/msg00086.html>.

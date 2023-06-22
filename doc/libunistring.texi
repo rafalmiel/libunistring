@@ -609,7 +609,7 @@ number of screen columns of a string is requested.
 gnulib has functions @func{mbschr} and @func{mbsrrchr} that are
 like @posixfunc{strchr} and @posixfunc{strrchr}, but work in multibyte locales.
 @item
-gnulib has a function @func{mbsstr}, like @posixfunc{strstr}, but works
+gnulib has a function @func{mbsstr} that is like @posixfunc{strstr}, but works
 in multibyte locales.
 @item
 gnulib has functions @func{mbscspn}, @func{mbspbrk}, @func{mbsspn}
