@@ -1,3 +1,10 @@
+2023-06-22  Bruno Haible  <bruno@clisp.org>
+
+	Ensure that makeinfo ≥ 6.8 checks the @menu structure.
+	See <https://lists.gnu.org/archive/html/bug-texinfo/2023-06/msg00015.html>.
+	* doc/Makefile.am (MAKEINFO): Add option
+	"-c CHECK_NORMAL_MENU_STRUCTURE=1".
+
 2023-05-21  Bruno Haible  <bruno@clisp.org>
 
 	Doc tweaks, borrowed from Gnulib.
