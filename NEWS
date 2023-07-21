@@ -1,4 +1,5 @@
 New in 1.2:
+* New functions u8_pcpy, u16_pcpy, u32_pcpy, similar to mempcpy.
 * Fixed a bug in the *printf functions: In the %U, %lU, %llU directives, a
   negative width given as an argument did not trigger left-justification.
 

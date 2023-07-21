@@ -273,6 +273,7 @@
 #  unistr/u16-mbtoucr \
 #  unistr/u16-move \
 #  unistr/u16-next \
+#  unistr/u16-pcpy \
 #  unistr/u16-prev \
 #  unistr/u16-set \
 #  unistr/u16-startswith \
@@ -314,6 +315,7 @@
 #  unistr/u32-mbtoucr \
 #  unistr/u32-move \
 #  unistr/u32-next \
+#  unistr/u32-pcpy \
 #  unistr/u32-prev \
 #  unistr/u32-set \
 #  unistr/u32-startswith \
@@ -355,6 +357,7 @@
 #  unistr/u8-mbtoucr \
 #  unistr/u8-move \
 #  unistr/u8-next \
+#  unistr/u8-pcpy \
 #  unistr/u8-prev \
 #  unistr/u8-set \
 #  unistr/u8-startswith \
@@ -634,6 +637,7 @@ gl_MODULES([
   unistr/u16-mbtoucr
   unistr/u16-move
   unistr/u16-next
+  unistr/u16-pcpy
   unistr/u16-prev
   unistr/u16-set
   unistr/u16-startswith
@@ -675,6 +679,7 @@ gl_MODULES([
   unistr/u32-mbtoucr
   unistr/u32-move
   unistr/u32-next
+  unistr/u32-pcpy
   unistr/u32-prev
   unistr/u32-set
   unistr/u32-startswith
@@ -716,6 +721,7 @@ gl_MODULES([
   unistr/u8-mbtoucr
   unistr/u8-move
   unistr/u8-next
+  unistr/u8-pcpy
   unistr/u8-prev
   unistr/u8-set
   unistr/u8-startswith

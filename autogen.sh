@@ -96,6 +96,7 @@ if test $skip_gnulib = false; then
     unistr/u8-mbtouc-unsafe
     unistr/u8-move
     unistr/u8-next
+    unistr/u8-pcpy
     unistr/u8-prev
     unistr/u8-set
     unistr/u8-startswith
@@ -137,6 +138,7 @@ if test $skip_gnulib = false; then
     unistr/u16-mbtouc-unsafe
     unistr/u16-move
     unistr/u16-next
+    unistr/u16-pcpy
     unistr/u16-prev
     unistr/u16-set
     unistr/u16-startswith
@@ -178,6 +180,7 @@ if test $skip_gnulib = false; then
     unistr/u32-mbtouc-unsafe
     unistr/u32-move
     unistr/u32-next
+    unistr/u32-pcpy
     unistr/u32-prev
     unistr/u32-set
     unistr/u32-startswith
