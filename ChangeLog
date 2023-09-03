@@ -1,3 +1,27 @@
+2023-09-03  Bruno Haible  <bruno@clisp.org>
+
+	Sync with gnulib.
+	* lib/unistring/cdefs.h: Update from gnulib/m4/gnulib-common.m4.
+	(_UC_HAS_ATTRIBUTE): Apply
+	2023-01-13  Paul Eggert  <eggert@cs.ucla.edu>
+		Don’t use alloc_size with xlclang 16.1
+	2022-02-25  Paul Eggert  <eggert@cs.ucla.edu>
+		Port __has_attribute to Apple’s Clang renumbering
+	(_UC_HAS_C_ATTRIBUTE, _UC_ATTRIBUTE_MAYBE_UNUSED): Apply
+	2022-12-21  Paul Eggert  <eggert@cs.ucla.edu>
+		Port __has_c_attribute to strict C23
+	(_UC_BRACKET_BEFORE_ATTRIBUTE, _UC_ATTRIBUTE_MAYBE_UNUSED): Apply
+	2023-04-15  Bruno Haible  <bruno@clisp.org>
+		Fix compilation errors of list, set, oset, map, omap in C++ mode.
+	(_UC_ATTRIBUTE_MAYBE_UNUSED): Apply
+	2023-02-09  Bruno Haible  <bruno@clisp.org>
+		Fix compilation errors in C++ mode on macOS 12.5.
+	2023-01-28  Bruno Haible  <bruno@clisp.org>
+		Avoid clang warnings regarding [[__maybe_unused__]].
+	(_UC_ATTRIBUTE_DEALLOC_FREE): Apply
+	2022-12-27  Bruno Haible  <bruno@clisp.org>
+		Fix compilation errors in C++ mode on Solaris 11 OpenIndiana.
+
 2023-08-30  Bruno Haible  <bruno@clisp.org>
 
 	Recognize the *-*-windows* config triplets introduced on 2023-06-26.
