@@ -1,3 +1,8 @@
+2023-09-05  Bruno Haible  <bruno@clisp.org>
+
+	doc: Clarify NULs.
+	* doc/libunistring.texi (Conventions): Add a footnote about NUL units.
+
 2023-09-03  Bruno Haible  <bruno@clisp.org>
 
 	Improve clang support.

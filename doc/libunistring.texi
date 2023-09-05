@@ -98,7 +98,7 @@ This manual is for GNU libunistring.
 
 @ignore
 @c This was: @copying but it triggers a makeinfo 4.13 bug
-Copyright (C) 2001-2022 Free Software Foundation, Inc.
+Copyright (C) 2001-2023 Free Software Foundation, Inc.
 
 This manual is free documentation.  It is dually licensed under the
 GNU FDL and the GNU GPL.  This means that you can redistribute this
@@ -129,7 +129,7 @@ A copy of the license is included in @ref{GNU GPL}.
 @page
 @vskip 0pt plus 1filll
 @c @insertcopying
-Copyright (C) 2001-2022 Free Software Foundation, Inc.
+Copyright (C) 2001-2023 Free Software Foundation, Inc.
 
 This manual is free documentation.  It is dually licensed under the
 GNU FDL and the GNU GPL.  This means that you can redistribute this
@@ -714,7 +714,10 @@ Variables of type @code{uint32_t *} denote UTF-32 strings, without byte
 order mark.  Their units are 4-byte words.
 
 Argument pairs @code{(@var{s}, @var{n})} denote a string
-@code{@var{s}[0..@var{n}-1]} with exactly @var{n} units.
+@code{@var{s}[0..@var{n}-1]} with exactly @var{n} units.@footnote{A NUL
+unit as terminator is not needed, since the number of units is given by
+@var{n}.  If some of the units of the string are NUL, they are just
+regular units; they are not interpreted as terminators.}
 
 All functions with prefix @samp{ulc_} operate on C strings in locale
 encoding.
