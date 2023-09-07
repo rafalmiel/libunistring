@@ -1,3 +1,8 @@
+2023-09-07  Bruno Haible  <bruno@clisp.org>
+
+	Sync woe32dll/export.h with GNU libiconv and GNU gettext.
+	* woe32dll/export.h: Update comments.
+
 2023-09-05  Bruno Haible  <bruno@clisp.org>
 
 	doc: Clarify NULs.
