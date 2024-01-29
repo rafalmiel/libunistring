@@ -1,5 +1,5 @@
 /* List of exported symbols of libunistring on Cygwin.
-   Copyright (C) 2006-2023 Free Software Foundation, Inc.
+   Copyright (C) 2006-2024 Free Software Foundation, Inc.
    Written by Bruno Haible <bruno@clisp.org>, 2006.
 
    This program is free software: you can redistribute it and/or
@@ -167,4 +167,5 @@ VARIABLE(uninorm_nfkd)
 VARIABLE(unicase_empty_prefix_context)
 VARIABLE(unicase_empty_suffix_context)
 /* Variables declared in unistring/version.h */
+VARIABLE(_libunistring_unicode_version)
 VARIABLE(_libunistring_version)

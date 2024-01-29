@@ -1,5 +1,5 @@
 /* Version information about GNU libunistring.
-   Copyright (C) 2009 Free Software Foundation, Inc.
+   Copyright (C) 2009-2024 Free Software Foundation, Inc.
    Written by Bruno Haible <bruno@clisp.org>, 2009.
 
    This program is free software: you can redistribute it and/or
@@ -30,3 +30,6 @@
 #include "unistring/version.h"
 
 const int _libunistring_version = _LIBUNISTRING_VERSION;
+
+/* Unicode version 15.0.0  */
+const int _libunistring_unicode_version = (15 << 8) + 0;
