@@ -98,7 +98,7 @@ This manual is for GNU libunistring.
 
 @ignore
 @c This was: @copying but it triggers a makeinfo 4.13 bug
-Copyright (C) 2001-2023 Free Software Foundation, Inc.
+Copyright (C) 2001-2024 Free Software Foundation, Inc.
 
 This manual is free documentation.  It is dually licensed under the
 GNU FDL and the GNU GPL.  This means that you can redistribute this
@@ -129,7 +129,7 @@ A copy of the license is included in @ref{GNU GPL}.
 @page
 @vskip 0pt plus 1filll
 @c @insertcopying
-Copyright (C) 2001-2023 Free Software Foundation, Inc.
+Copyright (C) 2001-2024 Free Software Foundation, Inc.
 
 This manual is free documentation.  It is dually licensed under the
 GNU FDL and the GNU GPL.  This means that you can redistribute this
@@ -843,14 +843,16 @@ version number of the libunistring library.
 
 @deftypevr Macro int _LIBUNISTRING_VERSION
 This constant contains the version of libunistring that is being used
-at compile time.  It encodes the major and minor parts of the version
-number only.  These parts are encoded in the form @code{(major<<8) + minor}.
+at compile time.
+It encodes the major, minor, and subminor parts of the version number.
+These parts are encoded in the form @code{(major<<16) + (minor<<8) + subminor}.
 @end deftypevr
 
 @deftypevr Constant int _libunistring_version
 This constant contains the version of libunistring that is being used
-at run time.  It encodes the major and minor parts of the version
-number only.  These parts are encoded in the form @code{(major<<8) + minor}.
+at run time.
+It encodes the major, minor, and subminor parts of the version number.
+These parts are encoded in the form @code{(major<<16) + (minor<<8) + subminor}.
 @end deftypevr
 
 It is possible that @code{_libunistring_version} is greater than
@@ -858,6 +860,15 @@ It is possible that @code{_libunistring_version} is greater than
 @code{libunistring} as a shared library, and a newer, binary
 backward-compatible version has been installed after your program
 that uses @code{libunistring} was installed.
+
+@code{<unistring/version.h>} also contains:
+
+@deftypevr Constant int _libunistring_unicode_version
+This constant contains the version of the Unicode standard that is
+implemented by libunistring.
+It encodes the major and minor parts of the version number only.
+These parts are encoded in the form @code{(major<<8) + minor}.
+@end deftypevr
 
 @node Autoconf macro
 @section Autoconf macro

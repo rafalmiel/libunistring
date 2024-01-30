@@ -1,5 +1,6 @@
 New in 1.2:
 * New functions u8_pcpy, u16_pcpy, u32_pcpy, similar to mempcpy.
+* New constant _libunistring_unicode_version.
 * The UTF-8 decoder functions, especially u8_mbtouc, are now more Unicode
   Standard compliant.
 * Fixed a bug in the *printf functions: In the %U, %lU, %llU directives, a
