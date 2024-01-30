@@ -658,6 +658,12 @@
 /lib/unictype/digit.c
 /lib/unictype/digit.h
 /lib/unictype/identsyntaxmap.h
+/lib/unictype/incb_byname.c
+/lib/unictype/incb_byname.gperf
+/lib/unictype/incb_name.c
+/lib/unictype/incb_name.h
+/lib/unictype/incb_of.c
+/lib/unictype/incb_of.h
 /lib/unictype/joininggroup_byname.c
 /lib/unictype/joininggroup_byname.gperf
 /lib/unictype/joininggroup_name.c
@@ -1741,6 +1747,10 @@
 /tests/unictype/test-decdigit.h
 /tests/unictype/test-digit.c
 /tests/unictype/test-digit.h
+/tests/unictype/test-incb_byname.c
+/tests/unictype/test-incb_name.c
+/tests/unictype/test-incb_of.c
+/tests/unictype/test-incb_of.h
 /tests/unictype/test-joininggroup_byname.c
 /tests/unictype/test-joininggroup_name.c
 /tests/unictype/test-joininggroup_of.c
@@ -2176,6 +2186,7 @@
 /lib/unictype/bidi_byname.h
 /lib/unictype/categ_byname.h
 /lib/unictype/combiningclass_byname.h
+/lib/unictype/incb_byname.h
 /lib/unictype/joininggroup_byname.h
 /lib/unictype/joiningtype_byname.h
 /lib/unictype/pr_byname.h
@@ -2515,6 +2526,12 @@ autom4te.cache/
 /tests/test-ignorable.exe
 /tests/test-ignore-value
 /tests/test-ignore-value.exe
+/tests/test-incb_byname
+/tests/test-incb_byname.exe
+/tests/test-incb_name
+/tests/test-incb_name.exe
+/tests/test-incb_of
+/tests/test-incb_of.exe
 /tests/test-inet_pton
 /tests/test-inet_pton.exe
 /tests/test-intprops

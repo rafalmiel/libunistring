@@ -21,6 +21,7 @@ in the presence of specific Unicode characters.
 * Mirrored character::
 * Arabic shaping::
 * Properties::
+* Other attributes::
 * Scripts::
 * Blocks::
 * ISO C and Java syntax::
@@ -1250,6 +1251,50 @@ Other miscellaneous properties are:
 @deftypefunx bool uc_is_property_extender (ucs4_t@tie{}@var{uc})
 @deftypefunx bool uc_is_property_ignorable_control (ucs4_t@tie{}@var{uc})
 @deftypefunx bool uc_is_property_regional_indicator (ucs4_t@tie{}@var{uc})
+@end deftypefun
+
+@node Other attributes
+@section Other attributes
+
+This section defines non-boolean attributes of Unicode characters.
+
+@menu
+* Indic conjunct break::
+@end menu
+
+@node Indic conjunct break
+@subsection Indic conjunct break
+
+@cindex Indic_Conjunct_Break
+The Indic_Conjunct_Break attribute is used when determining the grapheme
+cluster boundary in Indic scripts.
+
+The Indic_Conjunct_Break attribute has the following possible values:
+
+@deftypevr Constant int UC_INDIC_CONJUNCT_BREAK_NONE
+@deftypevrx Constant int UC_INDIC_CONJUNCT_BREAK_CONSONANT
+@deftypevrx Constant int UC_INDIC_CONJUNCT_BREAK_LINKER
+@deftypevrx Constant int UC_INDIC_CONJUNCT_BREAK_EXTEND
+@end deftypevr
+
+The following functions implement the association between an
+Indic_Conjunct_Break value and its name.
+
+@deftypefun {const char *} uc_indic_conjunct_break_name (int@tie{}@var{indic_conjunct_break})
+Returns the name of an Indic_Conjunct_Break value.
+@end deftypefun
+
+@deftypefun int uc_indic_conjunct_break_byname (const@tie{}char@tie{}*@var{indic_conjunct_break_name})
+Returns the Indic_Conjunct_Break value given by name, e.g@. @code{"Consonant"}.
+This lookup ignores spaces, underscores, or hyphens as word separators and is
+case-insignificant.
+@end deftypefun
+
+The following function gives the Indic_Conjunct_Break attribute of every
+Unicode character.
+
+@deftypefun int uc_indic_conjunct_break (ucs4_t@tie{}@var{uc})
+Returns the Indic_Conjunct_Break attribute of a Unicode character.
 @end deftypefun
 
 @node Scripts

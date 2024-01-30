@@ -8,7 +8,7 @@
 # It also requires
 #   - the gperf program.
 
-# Copyright (C) 2003-2023 Free Software Foundation, Inc.
+# Copyright (C) 2003-2024 Free Software Foundation, Inc.
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -307,6 +307,7 @@ if test $skip_gnulib = false; then
     unictype/ctype-xdigit
     unictype/decimal-digit
     unictype/digit
+    unictype/incb-all
     unictype/joininggroup-all
     unictype/joiningtype-all
     unictype/mirror

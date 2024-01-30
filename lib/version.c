@@ -31,5 +31,5 @@
 
 const int _libunistring_version = _LIBUNISTRING_VERSION;
 
-/* Unicode version 15.0.0  */
-const int _libunistring_unicode_version = (15 << 8) + 0;
+/* Unicode version 15.1.0  */
+const int _libunistring_unicode_version = (15 << 8) + 1;
