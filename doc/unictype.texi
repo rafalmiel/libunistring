@@ -1004,6 +1004,8 @@ The following properties are related to identifiers.
 @deftypevrx Constant uc_property_t UC_PROPERTY_OTHER_ID_CONTINUE
 @deftypevrx Constant uc_property_t UC_PROPERTY_XID_START
 @deftypevrx Constant uc_property_t UC_PROPERTY_XID_CONTINUE
+@deftypevrx Constant uc_property_t UC_PROPERTY_ID_COMPAT_MATH_START
+@deftypevrx Constant uc_property_t UC_PROPERTY_ID_COMPAT_MATH_CONTINUE
 @deftypevrx Constant uc_property_t UC_PROPERTY_PATTERN_WHITE_SPACE
 @deftypevrx Constant uc_property_t UC_PROPERTY_PATTERN_SYNTAX
 @end deftypevr
@@ -1049,6 +1051,7 @@ The following properties deal with CJK.
 @deftypevr Constant uc_property_t UC_PROPERTY_IDEOGRAPHIC
 @deftypevrx Constant uc_property_t UC_PROPERTY_UNIFIED_IDEOGRAPH
 @deftypevrx Constant uc_property_t UC_PROPERTY_RADICAL
+@deftypevrx Constant uc_property_t UC_PROPERTY_IDS_UNARY_OPERATOR
 @deftypevrx Constant uc_property_t UC_PROPERTY_IDS_BINARY_OPERATOR
 @deftypevrx Constant uc_property_t UC_PROPERTY_IDS_TRINARY_OPERATOR
 @end deftypevr
@@ -1164,6 +1167,8 @@ The following properties are related to identifiers.
 @deftypefunx bool uc_is_property_other_id_continue (ucs4_t@tie{}@var{uc})
 @deftypefunx bool uc_is_property_xid_start (ucs4_t@tie{}@var{uc})
 @deftypefunx bool uc_is_property_xid_continue (ucs4_t@tie{}@var{uc})
+@deftypefunx bool uc_is_property_id_compat_math_start (ucs4_t@tie{}@var{uc})
+@deftypefunx bool uc_is_property_id_compat_math_continue (ucs4_t@tie{}@var{uc})
 @deftypefunx bool uc_is_property_pattern_white_space (ucs4_t@tie{}@var{uc})
 @deftypefunx bool uc_is_property_pattern_syntax (ucs4_t@tie{}@var{uc})
 @end deftypefun
@@ -1209,6 +1214,7 @@ The following properties deal with CJK.
 @deftypefun bool uc_is_property_ideographic (ucs4_t@tie{}@var{uc})
 @deftypefunx bool uc_is_property_unified_ideograph (ucs4_t@tie{}@var{uc})
 @deftypefunx bool uc_is_property_radical (ucs4_t@tie{}@var{uc})
+@deftypefunx bool uc_is_property_ids_unary_operator (ucs4_t@tie{}@var{uc})
 @deftypefunx bool uc_is_property_ids_binary_operator (ucs4_t@tie{}@var{uc})
 @deftypefunx bool uc_is_property_ids_trinary_operator (ucs4_t@tie{}@var{uc})
 @end deftypefun

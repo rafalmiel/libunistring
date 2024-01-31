@@ -776,6 +776,10 @@
 /lib/unictype/pr_hex_digit.h
 /lib/unictype/pr_hyphen.c
 /lib/unictype/pr_hyphen.h
+/lib/unictype/pr_id_compat_math_continue.c
+/lib/unictype/pr_id_compat_math_continue.h
+/lib/unictype/pr_id_compat_math_start.c
+/lib/unictype/pr_id_compat_math_start.h
 /lib/unictype/pr_id_continue.c
 /lib/unictype/pr_id_continue.h
 /lib/unictype/pr_id_start.c
@@ -786,6 +790,7 @@
 /lib/unictype/pr_ids_binary_operator.h
 /lib/unictype/pr_ids_trinary_operator.c
 /lib/unictype/pr_ids_trinary_operator.h
+/lib/unictype/pr_ids_unary_operator.c
 /lib/unictype/pr_ignorable_control.c
 /lib/unictype/pr_ignorable_control.h
 /lib/unictype/pr_iso_control.c
@@ -1811,11 +1816,14 @@
 /tests/unictype/test-pr_grapheme_link.c
 /tests/unictype/test-pr_hex_digit.c
 /tests/unictype/test-pr_hyphen.c
+/tests/unictype/test-pr_id_compat_math_continue.c
+/tests/unictype/test-pr_id_compat_math_start.c
 /tests/unictype/test-pr_id_continue.c
 /tests/unictype/test-pr_id_start.c
 /tests/unictype/test-pr_ideographic.c
 /tests/unictype/test-pr_ids_binary_operator.c
 /tests/unictype/test-pr_ids_trinary_operator.c
+/tests/unictype/test-pr_ids_unary_operator.c
 /tests/unictype/test-pr_ignorable_control.c
 /tests/unictype/test-pr_iso_control.c
 /tests/unictype/test-pr_join_control.c
@@ -2735,6 +2743,10 @@ autom4te.cache/
 /tests/test-pr_hex_digit.exe
 /tests/test-pr_hyphen
 /tests/test-pr_hyphen.exe
+/tests/test-pr_id_compat_math_continue
+/tests/test-pr_id_compat_math_continue.exe
+/tests/test-pr_id_compat_math_start
+/tests/test-pr_id_compat_math_start.exe
 /tests/test-pr_id_continue
 /tests/test-pr_id_continue.exe
 /tests/test-pr_id_start
@@ -2745,6 +2757,8 @@ autom4te.cache/
 /tests/test-pr_ids_binary_operator.exe
 /tests/test-pr_ids_trinary_operator
 /tests/test-pr_ids_trinary_operator.exe
+/tests/test-pr_ids_unary_operator
+/tests/test-pr_ids_unary_operator.exe
 /tests/test-pr_ignorable_control
 /tests/test-pr_ignorable_control.exe
 /tests/test-pr_iso_control
