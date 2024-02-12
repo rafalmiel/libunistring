@@ -837,6 +837,8 @@
 /lib/unictype/pr_pattern_syntax.h
 /lib/unictype/pr_pattern_white_space.c
 /lib/unictype/pr_pattern_white_space.h
+/lib/unictype/pr_prepended_concatenation_mark.c
+/lib/unictype/pr_prepended_concatenation_mark.h
 /lib/unictype/pr_private_use.c
 /lib/unictype/pr_private_use.h
 /lib/unictype/pr_punctuation.c
@@ -1847,6 +1849,7 @@
 /tests/unictype/test-pr_paragraph_separator.c
 /tests/unictype/test-pr_pattern_syntax.c
 /tests/unictype/test-pr_pattern_white_space.c
+/tests/unictype/test-pr_prepended_concatenation_mark.c
 /tests/unictype/test-pr_private_use.c
 /tests/unictype/test-pr_punctuation.c
 /tests/unictype/test-pr_quotation_mark.c
@@ -2805,6 +2808,8 @@ autom4te.cache/
 /tests/test-pr_pattern_syntax.exe
 /tests/test-pr_pattern_white_space
 /tests/test-pr_pattern_white_space.exe
+/tests/test-pr_prepended_concatenation_mark
+/tests/test-pr_prepended_concatenation_mark.exe
 /tests/test-pr_private_use
 /tests/test-pr_private_use.exe
 /tests/test-pr_punctuation

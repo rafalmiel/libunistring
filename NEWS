@@ -4,9 +4,11 @@ New in 1.2:
 * New functions uc_indic_conjunct_break_name, uc_indic_conjunct_break_byname,
   uc_indic_conjunct_break.
 * New functions
+    uc_is_property_prepended_concatenation_mark,
     uc_is_property_id_compat_math_start, uc_is_property_id_compat_math_continue,
     uc_is_property_ids_unary_operator
   and new constants
+    UC_PROPERTY_PREPENDED_CONCATENATION_MARK,
     UC_PROPERTY_ID_COMPAT_MATH_START, UC_PROPERTY_ID_COMPAT_MATH_CONTINUE,
     UC_PROPERTY_IDS_UNARY_OPERATOR.
 * New constant _libunistring_unicode_version.
