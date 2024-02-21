@@ -301,6 +301,7 @@
 /lib/locale.in.h
 /lib/localename-table.c
 /lib/localename-table.h
+/lib/localename-unsafe.c
 /lib/localename.c
 /lib/localename.h
 /lib/malloc.c
@@ -340,6 +341,7 @@
 /lib/relocatable.h
 /lib/relocatable.valgrind
 /lib/setlocale-lock.c
+/lib/setlocale_null-unlocked.c
 /lib/setlocale_null.c
 /lib/setlocale_null.h
 /lib/signbitd.c
@@ -362,6 +364,7 @@
 /lib/string.in.h
 /lib/strncat.c
 /lib/strstr.c
+/lib/struniq.h
 /lib/sys_types.in.h
 /lib/thread-optim.h
 /lib/uchar.in.h
@@ -1530,6 +1533,7 @@
 /tests/test-setlocale2.sh
 /tests/test-setlocale_null-mt-all.c
 /tests/test-setlocale_null-mt-one.c
+/tests/test-setlocale_null-unlocked.c
 /tests/test-setlocale_null.c
 /tests/test-setsockopt.c
 /tests/test-sigaction.c
@@ -2902,6 +2906,8 @@ autom4te.cache/
 /tests/test-setlocale_null-mt-all.exe
 /tests/test-setlocale_null-mt-one
 /tests/test-setlocale_null-mt-one.exe
+/tests/test-setlocale_null-unlocked
+/tests/test-setlocale_null-unlocked.exe
 /tests/test-setsockopt
 /tests/test-setsockopt.exe
 /tests/test-sigaction
