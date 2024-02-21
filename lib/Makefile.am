@@ -39,6 +39,7 @@ nodist_include_HEADERS = \
   unigbrk.h \
   uniwbrk.h \
   unilbrk.h \
+  unimetadata.h \
   uninorm.h \
   unicase.h
 
@@ -216,6 +217,7 @@ HEADERS_WITH_EXTERNS = \
   unigbrk.h \
   uniwbrk.h \
   unilbrk.h \
+  unimetadata.h \
   uninorm.h \
   unicase.h \
   localcharset.h \

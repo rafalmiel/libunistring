@@ -166,6 +166,7 @@ VARIABLE(uninorm_nfkd)
 /* Variables declared in unicase.h */
 VARIABLE(unicase_empty_prefix_context)
 VARIABLE(unicase_empty_suffix_context)
-/* Variables declared in unistring/version.h */
+/* Variables declared in unimetadata.h */
 VARIABLE(_libunistring_unicode_version)
+/* Variables declared in unistring/version.h */
 VARIABLE(_libunistring_version)

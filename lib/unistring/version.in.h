@@ -30,6 +30,9 @@
 /* Get LIBUNISTRING_DLL_VARIABLE.  */
 #include <unistring/woe32dll.h>
 
+/* Declare _libunistring_unicode_version.  */
+#include <unimetadata.h>
+
 
 #ifdef __cplusplus
 extern "C" {
@@ -40,9 +43,6 @@ extern "C" {
    except that for versions <= 0.9.3 the value was 0x000009. */
 #define _LIBUNISTRING_VERSION @HEXVERSION@
 extern LIBUNISTRING_DLL_VARIABLE const int _libunistring_version; /* Likewise */
-
-/* Supported Unicode version number: (major<<8) + minor  */
-extern LIBUNISTRING_DLL_VARIABLE const int _libunistring_unicode_version;
 
 
 #ifdef __cplusplus

@@ -198,6 +198,7 @@
 /gnulib-m4/uchar_h.m4
 /gnulib-m4/unicase_h.m4
 /gnulib-m4/unictype_h.m4
+/gnulib-m4/unimetadata_h.m4
 /gnulib-m4/uninorm_h.m4
 /gnulib-m4/unistd_h.m4
 /gnulib-m4/usleep.m4
@@ -369,6 +370,7 @@
 /lib/unictype.in.h
 /lib/unigbrk.in.h
 /lib/unilbrk.in.h
+/lib/unimetadata.in.h
 /lib/uniname.in.h
 /lib/uninorm.in.h
 /lib/unistd.c
@@ -914,6 +916,7 @@
 /lib/unilbrk/ulc-common.h
 /lib/unilbrk/ulc-possible-linebreaks.c
 /lib/unilbrk/ulc-width-linebreaks.c
+/lib/unimetadata/u-version.c
 /lib/uniname/gen-uninames.lisp
 /lib/uniname/uniname.c
 /lib/uniname/uninames.h
@@ -1902,6 +1905,7 @@
 /tests/unilbrk/test-u8-width-linebreaks.c
 /tests/unilbrk/test-ulc-possible-linebreaks.c
 /tests/unilbrk/test-ulc-width-linebreaks.c
+/tests/unimetadata/test-u-version.c
 /tests/uniname/HangulSyllableNames.txt
 /tests/uniname/NameAliases.txt
 /tests/uniname/UnicodeData.txt
@@ -2976,6 +2980,8 @@ autom4te.cache/
 /tests/test-time.exe
 /tests/test-time-h
 /tests/test-time-h.exe
+/tests/test-u-version
+/tests/test-u-version.exe
 /tests/test-u16-asnprintf1
 /tests/test-u16-asnprintf1.exe
 /tests/test-u16-casecmp
@@ -3531,6 +3537,8 @@ core
 /lib/unigbrk.h-t
 /lib/unilbrk.h
 /lib/unilbrk.h-t
+/lib/unimetadata.h
+/lib/unimetadata.h-t
 /lib/uniname.h
 /lib/uniname.h-t
 /lib/uninorm.h

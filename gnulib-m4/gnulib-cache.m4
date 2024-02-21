@@ -177,6 +177,8 @@
 #  unilbrk/u8-width-linebreaks \
 #  unilbrk/ulc-possible-linebreaks \
 #  unilbrk/ulc-width-linebreaks \
+#  unimetadata/base \
+#  unimetadata/u-version \
 #  uniname/base \
 #  uniname/uniname \
 #  uninorm/base \
@@ -542,6 +544,8 @@ gl_MODULES([
   unilbrk/u8-width-linebreaks
   unilbrk/ulc-possible-linebreaks
   unilbrk/ulc-width-linebreaks
+  unimetadata/base
+  unimetadata/u-version
   uniname/base
   uniname/uniname
   uninorm/base

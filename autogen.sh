@@ -355,6 +355,8 @@ if test $skip_gnulib = false; then
     unilbrk/u32-width-linebreaks
     unilbrk/ulc-possible-linebreaks
     unilbrk/ulc-width-linebreaks
+    unimetadata/base
+    unimetadata/u-version
     uninorm/base
     uninorm/canonical-decomposition
     uninorm/composition
