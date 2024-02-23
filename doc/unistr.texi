@@ -439,6 +439,7 @@ that it operates on Unicode strings.
 
 @cindex comparing
 The following functions compare two Unicode strings.
+They ignore locale-dependent collation rules.
 
 @deftypefun int u8_strcmp (const@tie{}uint8_t@tie{}*@var{s1}, const@tie{}uint8_t@tie{}*@var{s2})
 @deftypefunx int u16_strcmp (const@tie{}uint16_t@tie{}*@var{s1}, const@tie{}uint16_t@tie{}*@var{s2})
