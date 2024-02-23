@@ -757,6 +757,27 @@ is returned.  In both cases, @code{*@var{lengthp}} is set to the
 length (number of units) of the returned string.  In case of error,
 NULL is returned and @code{errno} is set.
 
+To invoke such a function:
+@itemize @bullet
+@item
+First ask yourself whether you want to accept the overhead of a
+@code{malloc} invocation even for a small-sized result.
+If yes, pass NULL as @var{resultbuf}.
+If no, allocate an array of units on the stack, typically between 50 and
+4000 bytes large; pass this array as @var{resultbuf}; and initialize
+@code{*@var{lengthp}} to the number of units of this array.
+@item
+Upon return from such a function, look at the return value:
+NULL means an error; look at the value of @code{errno} in this case.
+Otherwise, the return value is the result, with @code{*@var{lengthp}}
+units.  Note that the function has @emph{not} added an extra NUL
+character at the end.
+@item
+Finally, do memory management.  You know that the result was
+@code{malloc}-allocated if it is @code{!= NULL} and
+@code{!= @var{resultbuf}}.
+@end itemize
+
 @include unitypes.texi
 @include unistr.texi
 @include uniconv.texi
