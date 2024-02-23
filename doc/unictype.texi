@@ -723,6 +723,8 @@ This happens when the character has the bidi mirror property (that is, it
 should be displayed through a mirrored glyph) but this mirrored glyph
 does not exist as a Unicode character; thus a rendering engine needs to
 synthesize it artificially or pick it from an appropriate font.
+@c The list of such characters is found at the end of BidiMirroring.txt.
+This affects mostly mathematical operators.
 See section ``Bidi Mirrored'' of the Unicode standard.
 @end deftypefun
 
