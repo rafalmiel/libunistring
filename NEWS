@@ -14,6 +14,8 @@ New in 1.2:
 * New constant _libunistring_unicode_version.
 * The UTF-8 decoder functions, especially u8_mbtouc, are now more Unicode
   Standard compliant.
+* The *printf functions no longer support the %n directive, for security
+  reasons.
 * Fixed a bug in the *printf functions: In the %U, %lU, %llU directives, a
   negative width given as an argument did not trigger left-justification.
 
