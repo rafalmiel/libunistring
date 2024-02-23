@@ -716,6 +716,14 @@ The following function looks up the mirrored character of a Unicode character.
 Stores the mirrored character of a Unicode character @var{uc} in
 @code{*@var{puc}} and returns @code{true}, if it exists.  Otherwise it
 stores @var{uc} unmodified in @code{*@var{puc}} and returns @code{false}.
+
+Note: It is possible for this function to return @code{true} and set
+@code{*@var{puc}} to @code{0xFFFD}.
+This happens when the character has the bidi mirror property (that is, it
+should be displayed through a mirrored glyph) but this mirrored glyph
+does not exist as a Unicode character; thus a rendering engine needs to
+synthesize it artificially or pick it from an appropriate font.
+See section ``Bidi Mirrored'' of the Unicode standard.
 @end deftypefun
 
 @node Arabic shaping
