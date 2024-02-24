@@ -40,6 +40,7 @@
 #  --no-conditional-dependencies \
 #  --libtool \
 #  --macro-prefix=gl \
+#  gitlog-to-changelog \
 #  relocatable-lib-lgpl \
 #  unicase/base \
 #  unicase/empty-prefix-context \
@@ -407,6 +408,7 @@
 # Specification in the form of a few gnulib-tool.m4 macro invocations:
 gl_LOCAL_DIR([gnulib-local])
 gl_MODULES([
+  gitlog-to-changelog
   relocatable-lib-lgpl
   unicase/base
   unicase/empty-prefix-context

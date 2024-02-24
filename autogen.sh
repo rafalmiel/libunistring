@@ -80,6 +80,7 @@ if test $skip_gnulib = false; then
     exit 1
   }
   GNULIB_MODULES='
+    gitlog-to-changelog
     unitypes
     unistr/base
     unistr/u8-check

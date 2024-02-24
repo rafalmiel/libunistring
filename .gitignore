@@ -13,6 +13,7 @@
 
 # Files brought in by gnulib-tool:
 /build-aux/config.rpath
+/build-aux/gitlog-to-changelog
 /doc/relocatable.texi
 /gnulib-m4/00gnulib.m4
 /gnulib-m4/__inline.m4
