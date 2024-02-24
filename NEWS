@@ -18,6 +18,8 @@ New in 1.2:
   reasons.
 * Fixed a bug in the *printf functions: In the %U, %lU, %llU directives, a
   negative width given as an argument did not trigger left-justification.
+* The functions u16_strstr and u32_strstr now operate in worst-case linear
+  time.
 
 New in 1.1:
 * The data tables and algorithms have been updated to Unicode version 15.0.0.
