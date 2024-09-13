@@ -813,6 +813,8 @@
 /lib/unictype/pr_lowercase.h
 /lib/unictype/pr_math.c
 /lib/unictype/pr_math.h
+/lib/unictype/pr_modifier_combining_mark.c
+/lib/unictype/pr_modifier_combining_mark.h
 /lib/unictype/pr_non_break.c
 /lib/unictype/pr_non_break.h
 /lib/unictype/pr_not_a_character.c
@@ -926,6 +928,7 @@
 /lib/uniname/uninames.h
 /lib/uninorm/canonical-decomposition.c
 /lib/uninorm/compat-decomposition.c
+/lib/uninorm/composition-table-bounds.h
 /lib/uninorm/composition-table.gperf
 /lib/uninorm/composition.c
 /lib/uninorm/decompose-internal.c
@@ -1842,6 +1845,7 @@
 /tests/unictype/test-pr_logical_order_exception.c
 /tests/unictype/test-pr_lowercase.c
 /tests/unictype/test-pr_math.c
+/tests/unictype/test-pr_modifier_combining_mark.c
 /tests/unictype/test-pr_non_break.c
 /tests/unictype/test-pr_not_a_character.c
 /tests/unictype/test-pr_numeric.c
