@@ -465,6 +465,8 @@ if test $skip_gnulib = false; then
   if test ! -f build-aux/texinfo.tex; then
     $GNULIB_TOOL --copy-file build-aux/texinfo.tex
   fi
+  # Fetch INSTALL.generic.
+  $GNULIB_TOOL --copy-file doc/INSTALL.UTF-8 INSTALL.generic
 fi
 
 aclocal -I m4 -I gnulib-m4

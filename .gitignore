@@ -12,6 +12,7 @@
 ## file is not erased by "make mostlyclean".
 
 # Files brought in by gnulib-tool:
+/INSTALL.generic
 /build-aux/config.rpath
 /build-aux/gitlog-to-changelog
 /doc/relocatable.texi
