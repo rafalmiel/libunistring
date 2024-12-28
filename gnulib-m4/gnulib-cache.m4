@@ -390,7 +390,7 @@
 #  unistr/u8-to-u16 \
 #  unistr/u8-to-u32 \
 #  unistr/u8-uctomb \
-#  unitypes \
+#  unitypes-h \
 #  uniwbrk/base \
 #  uniwbrk/u16-wordbreaks \
 #  uniwbrk/u32-wordbreaks \
@@ -758,7 +758,7 @@ gl_MODULES([
   unistr/u8-to-u16
   unistr/u8-to-u32
   unistr/u8-uctomb
-  unitypes
+  unitypes-h
   uniwbrk/base
   uniwbrk/u16-wordbreaks
   uniwbrk/u32-wordbreaks

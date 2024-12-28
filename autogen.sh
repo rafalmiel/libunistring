@@ -81,7 +81,7 @@ if test $skip_gnulib = false; then
   }
   GNULIB_MODULES='
     gitlog-to-changelog
-    unitypes
+    unitypes-h
     unistr/base
     unistr/u8-check
     unistr/u8-chr
