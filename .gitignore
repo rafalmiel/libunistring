@@ -70,6 +70,7 @@
 /gnulib-m4/iconv_open.m4
 /gnulib-m4/include_next.m4
 /gnulib-m4/inet_pton.m4
+/gnulib-m4/init-package-version.m4
 /gnulib-m4/inline.m4
 /gnulib-m4/intl-thread-locale.m4
 /gnulib-m4/intlmacosx.m4

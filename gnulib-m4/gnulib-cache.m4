@@ -1,4 +1,4 @@
-# Copyright (C) 2002-2024 Free Software Foundation, Inc.
+# Copyright (C) 2002-2025 Free Software Foundation, Inc.
 #
 # This file is free software; you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -42,6 +42,7 @@
 #  --libtool \
 #  --macro-prefix=gl \
 #  gitlog-to-changelog \
+#  package-version \
 #  relocatable-lib-lgpl \
 #  unicase/base \
 #  unicase/empty-prefix-context \
@@ -410,6 +411,7 @@
 gl_LOCAL_DIR([gnulib-local])
 gl_MODULES([
   gitlog-to-changelog
+  package-version
   relocatable-lib-lgpl
   unicase/base
   unicase/empty-prefix-context

@@ -8,7 +8,7 @@
 # It also requires
 #   - the gperf program.
 
-# Copyright (C) 2003-2024 Free Software Foundation, Inc.
+# Copyright (C) 2003-2025 Free Software Foundation, Inc.
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -81,6 +81,7 @@ if test $skip_gnulib = false; then
   }
   GNULIB_MODULES='
     gitlog-to-changelog
+    package-version
     unitypes-h
     unistr/base
     unistr/u8-check
