@@ -1,5 +1,5 @@
 dnl Configuration for the toplevel directory of GNU libunistring
-dnl Copyright (C) 2009-2023 Free Software Foundation, Inc.
+dnl Copyright (C) 2009-2025 Free Software Foundation, Inc.
 dnl
 dnl This program is free software: you can redistribute it and/or modify
 dnl it under the terms of the GNU General Public License as published by
@@ -17,11 +17,11 @@ dnl along with this program.  If not, see <https://www.gnu.org/licenses/>.
 dnl Process this file with autoconf to produce a configure script.
 
 AC_PREREQ([2.64])
-AC_INIT
+AC_INIT([libunistring], [dummy])
 AC_CONFIG_SRCDIR([lib/unistring/version.in.h])
 AC_CONFIG_AUX_DIR([build-aux])
 . $srcdir/version.sh
-gl_INIT_PACKAGE([libunistring], [$VERSION_NUMBER])
+gl_INIT_PACKAGE_VERSION([$VERSION_NUMBER])
 AM_INIT_AUTOMAKE([silent-rules dist-xz])
 AC_CONFIG_HEADERS([config.h])
 
