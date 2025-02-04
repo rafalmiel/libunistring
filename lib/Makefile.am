@@ -1,5 +1,5 @@
 ## Makefile for the lib subdirectory of GNU libunistring.
-## Copyright (C) 2009-2024 Free Software Foundation, Inc.
+## Copyright (C) 2009-2025 Free Software Foundation, Inc.
 ##
 ## This program is free software: you can redistribute it and/or modify
 ## it under the terms of the GNU General Public License as published by
@@ -265,9 +265,9 @@ config.h: $(BUILT_SOURCES) $(srcdir)/libunistring.sym
 	        case $$f in \
 	          *.res.lo ) ;; \
 	          *.c | *.$(OBJEXT) | *.lo ) \
-	            sf=`echo "$$f" | sed -e 's,\\.[^.]*$$,,'`.c; \
+	            sf=`echo "$$f" | sed -e 's,^libunistring_la-,,' -e 's,\\.[^.]*$$,,'`.c; \
 	            test -f $$sf || sf=$(srcdir)/$$sf; \
-	            of=`echo "$$f" | sed -e 's,^.*/,,' -e 's,\\.[^.]*$$,,'`.$(OBJEXT); \
+	            of=`echo "$$f" | sed -e 's,^.*/,,' -e 's,^libunistring_la-,,' -e 's,\\.[^.]*$$,,'`.$(OBJEXT); \
 	            echo "$(COMPILE) -c $$sf" 1>&6; \
 	            $(COMPILE) -c $$sf || { rm -f config.h; exit 1; }; \
 	            sh ./exported.sh $$of 1>&5; \
